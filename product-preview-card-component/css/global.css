@@ -1,0 +1,23 @@
+* {
+  --dark-cyan: #3c8067;
+  --cream: #f2ebe3;
+  --very-dark-blue: #1c232b;
+  --dark-grayish-blue: #6c7289;
+  --white: #ffffff;
+}
+
+body {
+  max-width: 1440px;
+  background: #fff;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Fraunces', serif; */
+}
+
+p {
+  font-size: 14px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
