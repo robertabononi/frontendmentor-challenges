@@ -66,6 +66,11 @@ button {
   padding: 0.5rem;
 }
 
+button:hover {
+  background-color: #1e4335;
+  cursor: pointer;
+}
+
 a {
   color: var(--white);
   text-decoration: none;
