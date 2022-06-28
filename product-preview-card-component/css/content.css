@@ -71,13 +71,13 @@ button:hover {
   cursor: pointer;
 }
 
-a {
+.cart {
   color: var(--white);
   text-decoration: none;
   position: relative;
 }
 
-a::before {
+.cart::before {
   content: '';
   background: url(../images/icon-cart.svg) no-repeat;
   position: absolute;
@@ -87,11 +87,11 @@ a::before {
   left: -2rem;
 }
 
-/* .attribution {
+.attribution {
   font-size: 11px;
   text-align: center;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-} */
+}
