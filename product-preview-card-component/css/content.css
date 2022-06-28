@@ -62,6 +62,8 @@ button {
   background: var(--dark-cyan);
   border: none;
   border-radius: 0.5rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
 }
 
 a {
