@@ -1,4 +1,7 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   --dark-cyan: #3c8067;
   --cream: #f2ebe3;
   --very-dark-blue: #1c232b;
@@ -8,9 +11,12 @@
 
 body {
   max-width: 1440px;
-  background: #fff;
+  background: var(--cream);
   font-family: 'Montserrat', sans-serif;
-  /* font-family: 'Fraunces', serif; */
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 p {
@@ -21,3 +27,12 @@ img {
   max-width: 100%;
   display: block;
 }
+
+span {
+  display: block
+}
+
+/* footer {
+  align-self: end;
+  padding-bottom: 1rem;
+} */
