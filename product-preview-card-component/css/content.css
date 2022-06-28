@@ -55,6 +55,7 @@
 .preco__normal {
   text-decoration: line-through;
   justify-self: center;
+  color: var(--dark-grayish-blue);
 }
 
 button {
