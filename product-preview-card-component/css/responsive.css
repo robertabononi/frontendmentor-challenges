@@ -1,0 +1,29 @@
+@media (max-width: 375px) {
+  .main {
+    grid-template-columns: 1fr;
+    margin: 1rem;
+  }
+
+  .main img {
+    content: url(../images/image-product-mobile.jpg);
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+
+  .infos {
+    gap: 1rem;
+  }
+
+  .preco {
+    margin-top: 1.5rem;
+    grid-template-columns: auto 1fr;
+  }
+
+  .preco__normal {
+    justify-self: start;
+    margin-left: 2rem;
+  }
+
+  button {
+    padding: 1rem;
+  }
+}
