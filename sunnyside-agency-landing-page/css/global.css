@@ -23,3 +23,8 @@ body {
   font-family: 'Fraunces', serif;
   /* font-family: 'Barlow', sans-serif; */
 }
+
+img {
+  max-width: 100%;
+  display: block;
+}
