@@ -1,0 +1,62 @@
+.header-main {
+  background: url(../images/desktop/image-header.jpg) no-repeat center;
+  background-size: cover;
+  max-width: 100%;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.header img {
+  height: 2rem;
+  align-self: center;
+}
+
+.header__lista {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-family: 'Barlow', sans-serif;
+  color: var(--white);
+}
+
+.header__lista__item {
+  margin-left: 1rem;
+  padding: 1.2rem;
+}
+
+.header__lista__item:nth-last-child(1) {
+  align-self: center;
+  background: var(--white);
+  border-radius: 3rem;
+  font-family: 'Fraunces', serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #000000;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+main h1 {
+  text-transform: uppercase;
+  color: var(--white);
+  font-size: 4rem;
+  font-weight: 900;
+  letter-spacing: 0.55rem;
+  display: grid;
+  gap: 3.5rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+main h1::after {
+  content: '';
+  background: url(../images/icon-arrow-down.svg) no-repeat center;
+  display: block;
+  height: 120px;
+}
